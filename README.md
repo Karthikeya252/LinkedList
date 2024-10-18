@@ -18,12 +18,12 @@
 
 - In the main function file which is list.c in this case we need to include list.h header file by adding a statement #include "list.h".
 
-- To run the program
+- To compile the program
 	$cc list.c -o list
 
 - If the file does not contains any error then the cursor will go to next prompt if any error if displays that error.
 
 - This will create a list executable which is the output file.
+  
 	$./list
-
 - This command will run that particular output file and displays your desired output.
