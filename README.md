@@ -1,15 +1,13 @@
 # LinkedList
 - Linked list is one of the basic data structure that stores data in a linear but non continuous manner.
 
-- In the memory by default int is provided with 4 bytes of data in 64 bit architecture and 2 bytes in 32 bit architecture.
+- We use linked list due to its Dynamic memory allocation and efficient insertion and deletion.
 
-- And the next item in the structure is pointer part that stores next node address.
+- This is a simple demostration of single linked list. Node of a single linked list consist of 2 fields data and pointer parts.
+	- The data part stores data provide to it's respective type.
+   	- The pointer part stores next Node address developing a link between privious and next nodes of the list.
 
-- Since this is demonstration of single linked list their is only one pointer/address.
-
-- Also this program is written in CentOS 7 therefore the given below commands are used to write and execute the program.
-
-- To create a editor vi followed by the file name with proper extension
+- To create a editor vi followed by the file name with proper extension-
 	$vi list.h
 
 - The extension ".h" indicates that it is a user defined header file that includes all functions which we use in the program.
@@ -20,10 +18,14 @@
 
 - To compile the program
 	$cc list.c -o list
+	- "cc" this means c compiler which is inbuilt in the linux based operating systems.
+   	- "-o" this represent output file in this case "list" is the output file.
 
-- If the file does not contains any error then the cursor will go to next prompt if any error if displays that error.
-
-- This will create a list executable which is the output file.
+- After successful execution the command mentioned above will create list file which is the output file.
   
-	$./list
-- This command will run that particular output file and displays your desired output.
+- To get the output on the screen you have to execute this particular file not the file that contains programming part.Since the program file does not have "x"
+  permission that is execution permission.
+
+- After successful compilation, now it's time to run the program. To run the output file which is list in this case you have to run the command given below
+  	$./list
+  	- This command will run the output file that contains information about the program provided.
