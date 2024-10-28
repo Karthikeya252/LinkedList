@@ -156,10 +156,9 @@ int search(struct list *list, int data)
 	
 	for (i=0,ptr= list->start;ptr!=NULL;ptr = ptr->next,i++)
 		if (ptr->data == data)
-		{	free(ptr);
+		{
 			return i+1;
 		}	
-	free(ptr);
-	return 0;
+	return -1;
 }
 
