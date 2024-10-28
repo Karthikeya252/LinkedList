@@ -84,7 +84,7 @@ void main()
 				printf("\nEnter the data to search:");
 				scanf("%d",&data);
 				option = search(list, data);
-				if (option)
+				if (option != -1)
 					printf("Data found at %d\n",option);
 				else
 					printf("Data not found\n");
